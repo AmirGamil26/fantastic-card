@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+.container{
+    background-color: #fff;
+}
+.container .images{
+    width: 35%;
+    float: left;
+}
+.container .images img{
+    width: 100%;
+    height: 100%;
+}
+.container .from-details{
+    width: 45%;
+    float: left;
+    margin: 230px 0 0 130px;
+}
+.clr{
+    clear: both;
+}
+.container .from-details{
+    padding: 10px 10px;
+}
+.container .from-details label:first-child{
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.container .from-details input:nth-child(2){
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid  hsl(270, 3%, 87%);
+}
+.container .from-details input::placeholder{
+    color: hsl(270, 3%, 87%);
+}
+.container .from-details label:nth-child(3){
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.container .from-details input:nth-child(4){
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid  hsl(270, 3%, 87%);
+}
+.container .from-details input::placeholder{
+    color: hsl(270, 3%, 87%);
+}
+.container .from-details label:nth-child(5), .container .from-details label:nth-child(7), .container .from-details label:nth-child(8){
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+.container .from-details label:nth-child(8){
+    margin-left: 15px;
+}
+.container .from-details input:nth-child(6){
+    width: 10%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid  hsl(270, 3%, 87%);
+}
+.container .from-details input::placeholder{
+    color: hsl(270, 3%, 87%);
+}
+.container .from-details input:nth-child(7){
+    width: 10%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid  hsl(270, 3%, 87%);
+}
+.container .from-details input::placeholder{
+    color: hsl(270, 3%, 87%);
+}
+
+.container .from-details input:nth-child(9){
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid  hsl(270, 3%, 87%);
+}
+.container .from-details input::placeholder{
+    color: hsl(270, 3%, 87%);
+}
+.container .from-details button{
+    background-color:   hsl(278, 68%, 11%);
+    color: hsl(0, 0%, 100%);
+    padding: 15px 90px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: capitalize;
+    border-radius: 20px;
+    margin: 30px 150px;
+    border: 1px solid hsl(278, 68%, 11%);
+    transition: 0.3s ease-in-out;
+}
+.container .from-details button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(278, 68%, 11%);
+    padding: 15px 90px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: capitalize;
+    border-radius: 20px;
+    margin: 30px 150px;
+}
+/*   The right part of the page   */
+.container .front-card{
+    width: 28%;
+    transform: translate(145px, -780px);
+    border-radius: 35px;
+}
+.container .front-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+.container .front-card .card-logo{
+    width: 13%;
+    height: 5vh;
+    border-radius: 50%;
+    transform: translate(26px, 175px);
+}
+.container .front-card .card-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.container .front-card .circle{
+    width: 8%;
+    height: 3vh;
+    border: 1px solid hsl(270, 3%, 87%);
+    border-radius: 50%;
+    transform: translate(80px, 143px);
+}
+.container .front-card .text1{
+    width: 100%;
+    transform: translate(36px, 160px);
+    color: #fff;
+}
+.container .front-card .text1 h5{
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    margin: 13px 0;
+}
+.container .front-card .text1 .card-name{
+    font-size: 12px;
+    transform: translate(0, 15px);
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+.container .front-card .text1 .card-date{
+    font-size: 12px;
+    transform: translate(215px , 0);
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+.container .back-card{
+    width: 28%;
+    transform: translate(200px, -770px);
+    border-radius: 35px;
+    position: relative;
+}
+.container .back-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+.container .back-card .text{
+    color: #fff;
+    position: absolute;
+    top: 84px;
+    left: 276px;
+}
+
+
+/*   The Second Page   */
+.container .payment-sucess{
+    text-align: center;
+    padding: 280px 0;
+}
+.container .payment-sucess .imag{
+    margin: 10px 0;
+    border-radius: 50%;
+}
+.container .payment-sucess .imag img{
+    width: 6%;
+    height: 6%;
+    border-radius: 50%;
+}
+.container .payment-sucess .thanks{
+    margin: 20px 0;
+}
+.container .payment-sucess .thanks h3{
+    font-size: 35px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.container .payment-sucess .thanks p{
+    font-size: 17px;
+    font-weight: normal;
+    margin: 16px 0;
+    color: hsl(279, 6%, 55%);
+}
+.container .payment-sucess .thanks  button{
+    background-color:   hsl(278, 68%, 11%);
+    color: hsl(0, 0%, 100%);
+    padding: 15px 90px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: capitalize;
+    border-radius: 20px;
+    margin: 30px 150px;
+    word-spacing: 70px;
+    border: 1px solid hsl(278, 68%, 11%);
+    transition: 0.3s ease-in-out;
+}
+.container .payment-sucess .thanks  button:hover{
+    background-color:  hsl(0, 0%, 100%);
+    color: hsl(278, 68%, 11%);
+    padding: 15px 90px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: capitalize;
+    border-radius: 20px;
+    margin: 30px 150px;
+    word-spacing: 70px;
+    border: 1px solid hsl(278, 68%, 11%);
+}
